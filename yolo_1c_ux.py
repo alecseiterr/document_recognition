@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # Загрузка обученной модели YOLOv8
-model = YOLO('Pivot-yolo-4class/best.pt')
+model = YOLO('best.pt')
 
 
 def get_bounding_boxes_and_crops(image_path, output_folder, output_annotated_path):
